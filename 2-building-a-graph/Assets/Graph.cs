@@ -11,7 +11,6 @@ public class Graph : MonoBehaviour {
             Transform point = Instantiate(pointPrefab);
             point.localPosition = Vector3.right*((i+0.5f)/5f-1f);
             point.localScale = Vector3.one / 5f;
-            i += 1;
         }
     }
     // Use this for initialization
