@@ -50,6 +50,7 @@ public class Fractal : MonoBehaviour {
     {
         for(int i = 0; i < orientations.Length; ++i)
         {
+            Random
             new GameObject("Fractal Child").
             AddComponent<Fractal>().Initialize(this, orientations[i]);
             yield return new WaitForSeconds(0.1f);
