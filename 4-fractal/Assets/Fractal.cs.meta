@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ee549921e4f33ea4d89bc7734caf3848
+timeCreated: 1527525678
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  - sphereMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  - material: {fileID: 2100000, guid: ebe3269dc9b63d7418e4b19ad5627108, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
