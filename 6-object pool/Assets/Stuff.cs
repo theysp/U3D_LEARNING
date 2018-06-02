@@ -2,10 +2,10 @@
 using System.Collections;
 
 [RequireComponent(typeof(Rigidbody))]
-public class Stuff : MonoBehaviour {
+public class Stuff : PooledObject
+{
 
     public Rigidbody body { get; private set; }
-    Transform transf;
     public float force;
 
     private void Awake()
@@ -14,10 +14,19 @@ public class Stuff : MonoBehaviour {
     }
     // Use this for initialization
     void Start () {
-
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    void OnTriggerEnter(Collider enteredCollider)
+    {
+        //Debug.Log("enter zone " + enteredCollider.tag);
+        if (enteredCollider.CompareTag("Kill Zone"))
+        {
+            ReturnToPool();
+        }
+    }
+
+
+    // Update is called once per frame
+    void Update () {
     }
 }

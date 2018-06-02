@@ -4,7 +4,6 @@ using System.Collections;
 public class StuffSpawner : MonoBehaviour {
 
     public float velocity;
-    public float spawnDistance = 10.0f;
     public float timeBetweenSpawns;
     float timeSinceLastSpawn;
     public int numprefabs = 0;
@@ -20,7 +19,7 @@ public class StuffSpawner : MonoBehaviour {
     public Stuff prefab7;
     public Stuff prefab8;
     
-    public Stuff[] stuffPrefabs;
+    public Stuff[] stuffPrefabs = new Stuff[8];
 
     public Material material;
 
@@ -38,8 +37,7 @@ public class StuffSpawner : MonoBehaviour {
     }
     // Use this for initialization
     void Start () {
-	
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -61,11 +59,9 @@ public class StuffSpawner : MonoBehaviour {
         if (numprefabs < 1)
             return;
         Stuff prefab = stuffPrefabs[Random.Range(0, numprefabs)];
-        Stuff spawn = Instantiate<Stuff>(prefab);
-        Vector3 pos = new Vector3(spawnDistance,0f, 0f);
-        spawn.transform.localPosition = pos;
-        Vector3 velocityVec = new Vector3(-1f, 0.7f, 0f);
-        spawn.body.velocity = velocity*velocityVec;
+        Stuff spawn = prefab.GetPooledInstance<Stuff>();
+        spawn.transform.localPosition = transform.position;
+        spawn.body.velocity = velocity* transform.up;
         spawn.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
         spawn.GetComponent<MeshRenderer>().material = material;
     }
