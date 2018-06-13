@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class CreateVolData : MonoBehaviour {
     Texture3D texture;
 
     // Use this for initialization
     void Start () {
         texture = GenerateTex3d(256);
-        gameObject.GetComponent<Material>() = 
+        GetComponent<MeshRenderer>().material.SetTexture();
     }
 	
 	// Update is called once per frame
