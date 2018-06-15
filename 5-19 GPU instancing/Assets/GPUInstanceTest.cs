@@ -22,4 +22,9 @@ public class GPUInstanceTest : MonoBehaviour{
 	void Update () {
 		
 	}
+
+    void DoAdvanced()
+    {
+
+    }
 }
