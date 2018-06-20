@@ -34,3 +34,72 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+6-object pool/Assets/CrossStuff.prefab
+6-object pool/Assets/CrossStuff.prefab.meta
+6-object pool/Assets/CubeStuff.prefab
+6-object pool/Assets/CubeStuff.prefab.meta
+6-object pool/Assets/FPS Counter.meta
+6-object pool/Assets/FPS Counter/FPS Panel.prefab
+6-object pool/Assets/FPS Counter/FPS Panel.prefab.meta
+6-object pool/Assets/FPS Counter/FPSCounter.cs
+6-object pool/Assets/FPS Counter/FPSCounter.cs.meta
+6-object pool/Assets/FPS Counter/FPSDisplay.cs
+6-object pool/Assets/FPS Counter/FPSDisplay.cs.meta
+6-object pool/Assets/Material.meta
+6-object pool/Assets/Material/blue.mat
+6-object pool/Assets/Material/blue.mat.meta
+6-object pool/Assets/Material/colormat.shader
+6-object pool/Assets/Material/colormat.shader.meta
+6-object pool/Assets/Material/NeutronMat.mat
+6-object pool/Assets/Material/NeutronMat.mat.meta
+6-object pool/Assets/Material/ProtonMat.mat
+6-object pool/Assets/Material/ProtonMat.mat.meta
+6-object pool/Assets/Material/purple.mat
+6-object pool/Assets/Material/purple.mat.meta
+6-object pool/Assets/Material/yellow.mat
+6-object pool/Assets/Material/yellow.mat.meta
+6-object pool/Assets/ObjectPool.cs
+6-object pool/Assets/ObjectPool.cs.meta
+6-object pool/Assets/ObjectPool.unity
+6-object pool/Assets/ObjectPool.unity.meta
+6-object pool/Assets/ObjectPool1.unity
+6-object pool/Assets/ObjectPool1.unity.meta
+6-object pool/Assets/ObjectPool2.unity
+6-object pool/Assets/ObjectPool2.unity.meta
+6-object pool/Assets/PooledObject.cs
+6-object pool/Assets/PooledObject.cs.meta
+6-object pool/Assets/Prefabs.meta
+6-object pool/Assets/Prefabs/Cube.prefab
+6-object pool/Assets/Prefabs/Cube.prefab.meta
+6-object pool/Assets/Prefabs/Spawner.prefab
+6-object pool/Assets/Prefabs/Spawner.prefab.meta
+6-object pool/Assets/Prefabs/Sphere.prefab
+6-object pool/Assets/Prefabs/Sphere.prefab.meta
+6-object pool/Assets/SceneSwitcher.cs
+6-object pool/Assets/SceneSwitcher.cs.meta
+6-object pool/Assets/SphereStuff.prefab
+6-object pool/Assets/SphereStuff.prefab.meta
+6-object pool/Assets/Stuff.cs
+6-object pool/Assets/Stuff.cs.meta
+6-object pool/Assets/StuffSpawner.cs
+6-object pool/Assets/StuffSpawner.cs.meta
+6-object pool/Assets/StuffSpawner.prefab
+6-object pool/Assets/StuffSpawner.prefab.meta
+6-object pool/Assets/StuffSpawnRing.cs
+6-object pool/Assets/StuffSpawnRing.cs.meta
+6-object pool/Assets/StuffSpawnRing.prefab
+6-object pool/Assets/StuffSpawnRing.prefab.meta
+6-object pool/ProjectSettings/AudioManager.asset
+6-object pool/ProjectSettings/ClusterInputManager.asset
+6-object pool/ProjectSettings/DynamicsManager.asset
+6-object pool/ProjectSettings/EditorBuildSettings.asset
+6-object pool/ProjectSettings/EditorSettings.asset
+6-object pool/ProjectSettings/GraphicsSettings.asset
+6-object pool/ProjectSettings/InputManager.asset
+6-object pool/ProjectSettings/NavMeshAreas.asset
+6-object pool/ProjectSettings/NetworkManager.asset
+6-object pool/ProjectSettings/Physics2DSettings.asset
+6-object pool/ProjectSettings/QualitySettings.asset
+6-object pool/ProjectSettings/TagManager.asset
+6-object pool/ProjectSettings/TimeManager.asset
+6-object pool/ProjectSettings/UnityConnectSettings.asset
